@@ -19,6 +19,12 @@ cd .\rest-vs-graphql\server
 
 3. Start node client
 
+```
+cd ..\client
+yarn
+yarn start
+```
+
 ## Model
 
 <table>
