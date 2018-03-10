@@ -4,7 +4,19 @@ Demo application showing comparison of GraphQL and Rest web services
 ## Install & Run
 
 1. Clone repository
+
+```
+cd c:\<installation_directory>
+git clone https://github.com/michalgebauer/rest-vs-graphql.git
+```
+
 2. Start Spring boot server
+
+```
+cd .\rest-vs-graphql\server
+
+```
+
 3. Start node client
 
 ## Model
