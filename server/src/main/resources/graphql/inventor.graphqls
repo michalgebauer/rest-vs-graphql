@@ -1,0 +1,20 @@
+type Inventor {
+    id: Long!
+    firstname: String
+    lastname: String
+    nationality: String
+    born: Int
+    died: Int
+    patents: [Patent]
+}
+
+type Query {
+    inventors: [Inventor]
+    inventor(id: Long!): Inventor
+}
+
+type Mutation {
+    newInventor(firstname: String!, lastname: String!, nationality: String): Inventor!
+    updateInventor(id: Long!, firstname: String!, lastname: String!, nationality: String): Inventor!
+    deleteInventor(id: Long!): Boolean
+}

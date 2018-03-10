@@ -1,0 +1,12 @@
+type Patent {
+    id: Long!
+    name: String
+    year: Int
+    description: String
+    inventor: Inventor!
+}
+
+extend type Query {
+    patents: [Patent]
+    patent(id: Long!): Patent
+}
