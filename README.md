@@ -13,16 +13,16 @@ git clone https://github.com/michalgebauer/rest-vs-graphql.git
 2. Start Spring boot server
 
 ```
-cd .\rest-vs-graphql\server
-
+$ cd .\rest-vs-graphql\server
+$ mvn spring-boot:run
 ```
 
-3. Start node client
+3. Open new terminal window and start node client
 
 ```
-cd ..\client
-yarn
-yarn start
+$ cd c:\<installation_directory>\rest-vs-graphql\client
+$ yarn
+$ yarn start
 ```
 
 ## Model
