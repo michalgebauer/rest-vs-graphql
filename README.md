@@ -84,3 +84,7 @@ $ yarn start
     <td>String</td>
   </tr>
 </table>
+
+## Public QraphQL APIs
+
+https://github.com/APIs-guru/graphql-apis
